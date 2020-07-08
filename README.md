@@ -1,4 +1,4 @@
-This is just a clone of [Microsoft's AzureNetworkWatcherNSGFlowLogsConnector](https://github.com/Microsoft/AzureNetworkNSGFlowLogsConnector)
+This is just a clone of [Microsoft's AzureNetworkWatcherNSGFlowLogsConnector](https://github.com/microsoft/AzureNetworkWatcherNSGFlowLogsConnector)
 
 This project installs into an Azure Function in your Azure subscription. Its job is to read NSG Flow Logs from your configured storage account, break the data into chunks that are the right size for your log analytics system to ingest, then transmit the chunks to that system. At present, you may choose from four output bindings: ArcSight, LogStash, Splunk HEC, Event Hub.  
 
